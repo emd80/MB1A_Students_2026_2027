@@ -1,0 +1,14 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises.qmd"
+author: "Evie Doyle"
+---
+Rounding exercise
+```{r}
+round(3.14159)
+```
+Repetition exercise
+```{r}
+print(rep(5,7))
+print(rep(times = 7, x=5))
+```
+
