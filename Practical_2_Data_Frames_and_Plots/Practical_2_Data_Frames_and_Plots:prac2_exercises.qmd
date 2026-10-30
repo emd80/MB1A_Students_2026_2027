@@ -1,0 +1,10 @@
+---
+title: "Practical_2_Data_Frames_and_Plots/prac2_exercises.qmd"
+author: "Evie Doyle"
+---
+
+```{r}
+input_vec <- c(5, -10, 4, -3) |> mean() |> abs() |> round()
+print(input_vec)
+```
+

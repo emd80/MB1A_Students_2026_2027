@@ -1,0 +1,31 @@
+---
+title: "Practical_2_Data_Frames_and_Plots/worked_example.qmd"
+author: "Evie Doyle"
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+library(maps)
+```
+```{r}
+bird_breeding_sites <- read_csv("data/breeding_site_locations.csv")
+gt(bird_breeding_sites)
+```
+
+```{r}
+colnames(bird_breeding_sites)
+```
+```{r}
+glimpse(bird_breeding_sites)
+```
+```{r}
+bird_migration_sites <- read_csv("data/migratory_connectivity_dataset.csv")
+gt(head(bird_migration_sites))
+```
+
+```{r}
+glimpse(bird_migration_sites)
+```
+
+
