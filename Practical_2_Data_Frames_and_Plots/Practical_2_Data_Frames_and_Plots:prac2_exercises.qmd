@@ -7,4 +7,16 @@ author: "Evie Doyle"
 input_vec <- c(5, -10, 4, -3) |> mean() |> abs() |> round()
 print(input_vec)
 ```
+Comparison operators
+
+```{r}
+y <- 12
+y==12
+
+y<15
+
+y>20
+
+y<=12
+```
 
